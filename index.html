@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rfzorzi - Software House </title>
+    <meta name="description" content="Software House e Consultoria de T.I">
+    <meta name="keywords" content="Software House, Sistemas de Gestão, Consultoria de T.I, implantação de sistemas">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Rafael De Leon Serafim">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet" type="text/css">
+    <link rel="icon" href="img/icon.png">
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="index.html"></a> <h1 class="logo"> Rfzorzi - Software House </h1>
+        <button class="btn-menu"> <i class="fa fa-bars"></i> </button>
+        <nav class="menu">
+            <a class="btn-close"><i class="fa fa-times"></i> </a>
+            <ul>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">Clientes</a> </li>
+                <li><a href="#">Serviços</a> </li>
+                <li><a href="#">Blog</a> </li>
+                <li><a href="#">Quem somos</a> </li>
+                <li><a href="#">Contatos</a> </li>
+
+            </ul>
+        </nav>
+    </header>
+    <div class="banner">
+        <div class="title">
+            <h2> RfZorzi </h2>
+            <h3> Consultoria de T.I e Software House</h3>
+        </div>
+        <div class="buttons">
+            <button class="btn btn-cadastrar"> Solicite Orçamento <i class="fa fa-arrow-circle-right"></i> </button>
+            <button class="btn btn-sobre"> Sobre <i class="fa fa-question-circle"></i> </button>
+        </div>
+
+    </div>
+    <main class="servicos">
+        <article class="servico">
+            <a href="#"><img src="img/office-1209640_1280.jpg" alt="Terceirização de T.I"></a>
+            <div class="inner">
+                <a href="#">Terceirização de T.I</a>
+                <h4>Suporte e Implantação para seus clientes</h4>
+                <p> Sua empresa de T.I esta crescendo e você precisa de um parceiro que lhe auxilie no suporte, <br>
+                    atendimento e implantação para seus clientes? Converse com a gente. </p>
+            </div>
+        </article>
+        <article class="servico">
+            <a href="#"><img src="img/Captura%20de%20tela_2020-05-20_13-48-02.jpeg" alt="Software House"></a>
+            <div class="inner">
+                <a href="#">Software House</a>
+                <h4>Soluções na medida certa</h4>
+                <p> Nós ajudamos você a encontrar a melhor solução de software, para facilitar a rotina da sua <br>
+                empresa, </p>
+            </div>
+        </article>
+
+    </main>
+<!-- NEWSLETTER -->
+    <section class="newsletter">
+        <h2> Inscreva-se!! </h2>
+        <h3> Receba novidades , dicas e muito mais </h3>
+        <form>
+            <input type="email" name="email" placeholder="Seu e-mail:">
+            <button> Cadastrar </button>
+        </form>
+    </section>
+
+<!-- RODAPE -->
+    <footer class="rodape">
+        <div class="social-icons">
+            <a href="#"><i class="fa fa-facebook"></i> </a>
+            <a href="#"><i class="fa fa-twitter"></i> </a>
+            <a href="#"><i class="fa fa-google"></i> </a>
+            <a href="#"><i class="fa fa-instagram"></i> </a>
+            <a href="#"><i class="fa fa-envelope"></i> </a>
+        </div>
+        <p class="copyright">
+            Copyright RfZorzi 2020. Todos os direitos reservados.
+        </p>
+    </footer>
+
+<!-- JQUERY -->
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script>
+    $(".btn-menu").click(function () {
+        $(".menu").show();
+    });
+    $(".btn-close").click(function () {
+        $(".menu").hide();
+    });
+</script>
+</body>
+</html>
